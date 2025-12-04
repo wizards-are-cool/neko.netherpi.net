@@ -1,0 +1,24 @@
+@media only screen and (max-width: 767px) {
+    #content {
+        grid-template:
+            "header" auto
+            "aside_l" auto
+            "main" auto
+            "footer" auto;
+    }
+    #theme_toggler {
+        position: absolute;
+        top: 7px;
+        left: 7px;
+}
+    #theme_toggler button {
+        width: 36px;
+        height: 36px;
+    }
+    #theme_toggler span.butt-text{
+        visibility: hidden;
+    }
+    aside.aside_l {
+        font-size: 15px;
+    }
+}

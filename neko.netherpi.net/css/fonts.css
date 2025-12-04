@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'ModeNine';
+    src: url('/font/ModeNine.woff2') format('woff2'),
+         url('/font/ModeNine.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Iosevka';
+    src: url('/font/Iosevka.woff2') format('woff2'),
+         url('/font/Iosevka.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+     font-weight: normal;
+     font-style: normal;
+     font-family: 'Iosevka';
+
+}
+
+aside.aside_l {
+     font-family: 'Iosevka';
+}
+
+div.aside_header {
+    font-family: 'ModeNine';
+}
+
+#theme_toggler span {
+    font-family: 'Iosevka';
+}
+
+h1 {
+    font-family: 'ModeNine';
+}
+
+h2 {
+    font-family: 'ModeNine';
+}

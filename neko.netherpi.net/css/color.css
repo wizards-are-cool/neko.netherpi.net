@@ -1,0 +1,29 @@
+html[data-theme="light"] {
+   --bg: url("/assets/img/lbg.gif");
+   --text: #403347;
+   --b-text: #000000e1;
+   --aside_h: #4D3073;
+   --aside_h_s: var(--aside_h) 0px 0px 0px;
+   --box: #9fc8ff;
+   --box-border: 3px solid #D2E5FF;
+   --box_radius: 8px;
+   --aside_h_bg: #d1e5ff;
+   --a: var(--aside_h);
+   --visited:
+   --butt_txt: var(--aside_h);
+}
+
+html[data-theme="dark"] {
+    --bg: url("/assets/img/dbg.gif");
+    --text: white;
+    --b-text: #ffffff;
+    --aside_h: #33d17a;
+    --aside_h_s: var(--aside_h) 1px 0px 10px;
+    --aside_h_bg: url("/assets/img/dbg_h.gif");
+    --box: black;
+    --box-border: 3px ridge #A6A6A6;
+    --box_radius: 0px;
+    --a: var(--aside_h);
+    --butt_txt: var(--text);
+    --visited: #17ab76;
+}

@@ -1,0 +1,60 @@
+/* everything related to layout of website :) */
+
+* {
+  box-sizing: border-box;
+}
+
+#content {
+  display: grid;
+  width: 95%;
+  grid-template:
+    "header header header" auto
+    "aside_l main main" auto
+    "footer footer footer" auto
+    / 220px auto 220px;
+  justify-self: center;
+
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+    display: grid;
+}
+
+header {
+  grid-area: header;
+  text-align: center;
+  height: 100px;
+}
+
+aside.aside_l {
+  grid-area: aside_l;
+  padding: 5px;
+}
+
+.aside-box {
+    margin-bottom: 10px;
+}
+
+main {
+  grid-area: main;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+#theme_toggler {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+.inner-section {
+    padding: 4px 17px;
+}

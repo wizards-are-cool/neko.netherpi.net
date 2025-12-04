@@ -1,0 +1,87 @@
+body {
+  background-image: var(--bg);
+  color: var(--text);
+  font-size: 1em;
+}
+
+/* --------------- HEADER --------------------- */
+#theme_toggler span {
+
+}
+
+/* --------------- ASIDE ----------------- */
+
+
+/*--------------- MAIN ----------------- */
+
+main {
+}
+
+section {
+    border: var(--box-border);
+    border-radius: var(--box_radius);
+    background: var(--box);
+}
+
+
+ul {
+    list-style: "> ";
+}
+
+
+summary::marker {
+    list-style: "> "
+}
+
+
+#theme_toggler button {
+    background: var(--box);
+    color: var(--butt_txt);
+    font-weight: bold;
+    border: var(--box-border);
+    border-radius: var(--box_radius);
+    padding: 3px;
+    text-align: center;
+
+}
+
+img.pixel {
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+    height: 1.25em;
+    width: auto;
+    display: inline-block;
+}
+
+img.button {
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+    height: 2em;
+    width: auto;
+
+}
+
+a {
+    color: var(--a);
+}
+
+
+a.visited {
+    color: var(--visited);
+}
+
+.section-head {
+    padding: 1px 17px;
+    color: var(--aside_h);
+    text-shadow: var(--aside_h_s);
+    background: var(--aside_h_bg);
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-block: none;
+}
+
+h2 {
+    font-size: 1.2em;
+}

@@ -1,0 +1,7 @@
+body {
+    font-size: 17px;
+    min-height: 100vh;
+    display: flex;
+    margin: auto;
+}
+

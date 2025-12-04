@@ -59,7 +59,7 @@ module.exports = function (eleventyConfig) {
   return {
     dir: {
       input: "content",
-      output: "neko.netherpi.net",
+      output: "public",
     },
   };
 };
